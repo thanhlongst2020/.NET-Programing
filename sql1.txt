@@ -1,0 +1,46 @@
+
+Create Table DVDLibrary( 
+ DVDCodeNo int Primary Key, 
+ DVDTitle nvarchar(100) Not Null, 
+ [Language] nvarchar(20) Not Null, 
+ SubTitle bit Not Null, 
+ Price Money Not Null 
+)
+
+Create Login mylogin with password=’mylogin’,CHECK_POLICY = OFF ;
+
+Exec sp_changedbowner mylogin;
+
+
+--2
+create table ChucVu(
+	MaCV int not null primary key,
+	TenCV nvarchar(100) 
+);
+
+
+create table CanBo(
+MaCB int not null primary key, 
+TenCB nvarchar(100), 
+ChucVuCB int, 
+SoGioGiang int, 
+DonGia money,
+FOREIGN KEY (ChucVuCB) REFERENCES ChucVu(MaCV)
+);
+
+
+--3
+create table Phong(
+	MaPhong int not null primary key, 
+	TenPhong nvarchar(100)
+)
+
+create table KhachHang(
+SoHD int not null primary key, 
+TenKH nvarchar(100), 
+SoCMND int, 
+SoTien money, 
+NgayTT DATETIME, 
+Phong int
+FOREIGN KEY (Phong) REFERENCES Phong(MaPhong)
+);

@@ -1,0 +1,10 @@
+E:\ProjectVS\Lab6\Lab6\bin\Release\Lab6.exe.config
+E:\ProjectVS\Lab6\Lab6\bin\Release\Lab6.exe
+E:\ProjectVS\Lab6\Lab6\bin\Release\Lab6.pdb
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.csproj.AssemblyReference.cache
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.frmDVDCatalog.resources
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.Properties.Resources.resources
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.csproj.GenerateResource.cache
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.csproj.CoreCompileInputs.cache
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.exe
+E:\ProjectVS\Lab6\Lab6\obj\Release\Lab6.pdb
